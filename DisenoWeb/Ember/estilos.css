@@ -1,0 +1,178 @@
+body{
+	background: #343333;
+	font-family: "Open Sans";
+	font-size: 16px;
+}
+header
+{
+	/*padding: 1em 0 0 0;*/
+	/*border: 1px solid red;*/
+	margin: 2em 0;
+	position: relative;	
+}
+header #datos
+{
+	/*border: 1px solid red;*/
+	text-align: center;
+	margin: 1em;
+	vertical-align: middle;
+}
+header #datos p
+{
+	margin: 0 0 0.2em 0;
+}
+header #datos p strong
+{
+	color: white;
+	/*font-size: 0.7em;	*/
+}
+header #datos .subtitle_datos
+{
+	color: gray;
+	/*font-size: 0.8em;*/
+}
+header #datos .title_datos
+{
+	color: #ea4c89;
+	display: inline-block;	
+	font-size: 1.3em;
+	/*vertical-align: middle;*/
+}
+header #datos .tag{
+	/*display: inline-block;*/
+	background: white;
+	border-radius: 5px;
+	color: #ea4c89;
+	/*font-size: 0.5em;*/
+	padding: 2px 3px;		
+	/*vertical-align: middle;*/
+}
+header #foto
+{	
+	text-align: center;		
+	/*border: 1px solid red;*/
+	margin: 1em;
+}
+header #foto img
+{
+	width: 140px;	
+	border-radius: 50%;	
+	border: 5px solid #ea4c89;	
+}
+nav
+{
+	background: #EA4C89;
+	box-shadow: rgba(0,0,0,0.5) 2px 2px 1px;
+}
+nav #menu
+{
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0.2em;
+	position: relative;	
+}
+nav #menu li
+{
+	display: inline-block;
+	padding: 0.5em 0;
+}
+nav #menu li a
+{
+	padding: 0.5em;	
+	color: white;
+	font-size: 1.2em;
+}
+nav #menu #options
+{
+	float: right;	
+}
+nav #menu li a
+{
+	text-decoration: none;
+}
+section
+{
+	padding: 2em 0;
+	border-top: 2px solid rgba(0,0,0,0.1);
+	/*padding: 1em 0;*/
+	background: #2c2a2a;	
+	/*text-align: center;*/
+	/*z-index: 2px;*/
+}
+section .info
+{
+	/*border: 1px solid red;	*/
+
+}
+section .action
+{
+	background: #ea4c89;	
+	border-bottom: 3px solid rgba(0,0,0,0.5);
+	border-radius: 5px 5px 5px 5px;
+	color: #96204b;
+	display: block;
+	font-size: 1.3em;
+	margin: 1em 1.5em;
+	padding: 0.7em 0;
+	text-align: center;
+	text-decoration: none;	
+}
+section .info
+{
+	color: white;		
+	text-align: center;
+}
+section .info p
+{
+	/*border: 1px solid red;*/
+	display: inline-block;
+	margin: 0 0.5em;
+	padding: 0.5em;
+}
+section .info p.middle
+{
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	padding: 1em 1em;
+}
+
+section .info p span
+{
+	display: block;	
+}
+section .info .main
+{
+	font-size: 1.5em;	
+}
+section .info .sub
+{
+	color: gray;
+	font-weight: 100;
+	/*font-size: 1.1em;	*/
+}
+section .tabs
+{
+/*border: 1px solid red;*/
+	padding: 1em 0;
+	margin: 0 1em;
+	border-bottom: 1px solid gray;
+	text-align: center;
+}
+section .tabs a
+{
+	/*border: 1px solid red;*/
+	color: gray;
+	/*font-size: 0.9em;*/
+	margin-right: 0.2em;
+	padding: 0.9em 0;	
+	text-decoration: none;
+}
+section .tabs a.selected
+{
+	/*border: 1px solid red;*/
+	color: white;
+	font-size: 1.1em;
+	/*padding-bottom: 0;*/
+	border-bottom: 2px solid #ea4c89;
+}
